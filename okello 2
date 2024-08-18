@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORBIT CYBER</title>
+    <style>
+        body {
+            background-image: url('path-to-your-background-image.jpg'); /* Add your background image */
+            background-size: cover; /* Ensure the image covers the whole page */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Prevent tiling of the image */
+            margin: 0;
+            font-family: Arial, sans-serif; /* Optional: Set a default font */
+        }
+        .header {
+            background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background to contrast with text */
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .header img {
+            max-width: 100%; /* Make sure the image fits within the header */
+            height: auto; /* Maintain aspect ratio */
+        }
+        .container {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
+            border-radius: 20px; /* Rounded corners for aesthetics */
+            margin: 20px auto; /* Center the container */
+            max-width: 800px; /* Optional: Set a maximum width */
+        }
+        .selection-list {
+            list-style: none;
+            padding: 0;
+        }
+        .selection-list li {
+            margin-bottom: 10px;
+        }
+        .selection-list label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        select {
+            padding: 5px;
+            font-size: 16px;
+        }
+        h2 {
+            color: red; /* Color for <h2> */
+        }
+        h3 {
+            color: blue; /* Color for <h3> */
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="logo.png.jfif" alt="ORBIT CYBER Logo">
+        <h1>ORBIT CYBER</h1>
+    </header>
+    <div class="container">
+        <h2>Welcome! ORBIT CYBER WI-FI</h2>
+        <h3>Please select your data package</h3>
+        <ul class="selection-list">
+            <li>
+                <label for="item1">1. 30 mins unlimited @ 15KES</label>
+                <select id="item1">
+                    <option value="30mins">Select</option>
+                </select>
+            </li>
+            <li>
+                <label for="item2">2. 1 Hour unlimited @ 30KES</label>
+                <select id="item2">
+                    <option value="1hour">Select</option>
+                </select>
+            </li>
+            <li>
+                <label for="item3">3. 2 Hours unlimited @ 60KES</label>
+                <select id="item3">
+                    <option value="2hours">Select</option>
+                </select>
+            </li>
+            <li>
+                <label for="item4">4. 12 Hours unlimited @ 200KES</label>
+                <select id="item4">
+                    <option value="12hours">Select</option>
+                </select>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
